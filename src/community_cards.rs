@@ -1,5 +1,5 @@
 struct Card {
-    index: u8,
+    index: i32,
     name: String,
 
 }

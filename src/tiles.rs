@@ -1,10 +1,10 @@
 struct Tile {
     name: String,
-    price: u8,
+    price: i32,
     buyable: bool,
-    index: u8,
-    color: u8,
-    houses: u8,
-    rent: u8,
+    index: i32,
+    color: i32,
+    houses: i32,
+    rent: i32,
     mortgaged: bool,
 }
